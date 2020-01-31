@@ -6,7 +6,7 @@ La instalcion de Microsoft NET.com fue sencillo, tan solo abres el link que vien
 
 
 La pagina se ve asi:
-[imagen](./img/)
+![imagen](./IMG/img.png)
 ## Instalación y configuración de Visual Studio Code para C#.
 
 
