@@ -13,7 +13,7 @@ La pagina se ve asi:
 Para la instalacion del Visual Studio Code, primero se debe buscar el link de Visual Studio Code, [Visual Studio Code](https://code.visualstudio.com/), una vez que se esta en la pagina debes de buscar la version mas nueva y adecuada para tu computadora. Despues seleccionar un lenguaje de programacion en este caso C#
 
 Este se vera asi:
-![imagenVSC](./IMG/visualstudiocode.jpg)
+![imagenVSC](./IMG/visualstudiocode.j)
 
 El siguiente paso solo seria buscarlo en la biblioteca de tu computadora e instalarlo.
 
@@ -23,6 +23,6 @@ El siguiente paso solo seria buscarlo en la biblioteca de tu computadora e insta
 Para instalar el git primero el usuario debe de tener una cuenta en Github, ya que el usiario tenga su cuenta podra ir a la pagina para instalar Git[Git](https://git-scm.com/), estando una vez en la pagina solo debes de dar click en el boton de "descargar".
 
 Este se vera asi:
-![imagengit](./IMG/imagengit.png)
+![imagengit](https://github.com/Juannino27/GarciaRiosPOO/blob/master/imagengit.png)
 
 El siguiente paso solo seria buscarlo en la biblioteca de tu computadora e instalarlo.
