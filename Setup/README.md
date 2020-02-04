@@ -13,7 +13,7 @@ La pagina se ve asi:
 Para la instalacion del Visual Studio Code, primero se debe buscar el link de Visual Studio Code, [Visual Studio Code](https://code.visualstudio.com/), una vez que se esta en la pagina debes de buscar la version mas nueva y adecuada para tu computadora. Despues seleccionar un lenguaje de programacion en este caso C#
 
 Este se vera asi:
-![imagenVSC](./IMG/visualstudiocode.j)
+![imagenVSC](https://github.com/Juannino27/GarciaRiosPOO/blob/master/visualstudiocode.jpg)
 
 El siguiente paso solo seria buscarlo en la biblioteca de tu computadora e instalarlo.
 
