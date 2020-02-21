@@ -5,6 +5,6 @@ Practica1
 
 Practica2
 
-[Actividad_2](./Pelicula/Program.cs/) Listado de Peliculas ganadoras de Oscar.
+[Actividad 2](./Pelicula/Program.cs/) Listado de Peliculas ganadoras de Oscar.
 
 
