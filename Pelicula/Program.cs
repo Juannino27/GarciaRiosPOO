@@ -42,26 +42,21 @@ namespace Peliculas
     class Program
     {
         static void Main(string[] args)
-        {
+        {   //Declaración de los objetos de la clase Pelicula
             Pelicula Pel1 = new Pelicula();
             Pelicula Pel2 = new Pelicula();
-            
+            //Metodo Set y Get para el primer constructor
             Pel1.setTitulo("Titanic");
-            Pel2.setTitulo("Black Panther");
-            Console.WriteLine(Pel1.getTitulo());
-            Console.WriteLine(Pel2.getTitulo());
             Pel1.setAño(1997);
-            Pel2.setAño(2018);
-            Console.WriteLine(Pel1.getAño());
-            Console.WriteLine(Pel2.getAño());
             Pel1.setPais("Estados Unidos");
-            Pel2.setPais("Estados Unidos");
-            Console.WriteLine(Pel1.getPais());
-            Console.WriteLine(Pel2.getPais());
             Pel1.setDirector("James Cameron");
+            Console.WriteLine("{0}({1},{2},{3})", Pel1.getTitulo(), Pel1.getAño(), Pel1.getPais(), Pel1.getDirrector());
+            //Metodo Set y Get para el segundo constructor
+            Pel2.setTitulo("Black Panther");
+            Pel2.setAño(2018);
+            Pel2.setPais("Estados Unidos");
             Pel2.setDirector("Ryan Coogler");
-
-
+            Console.WriteLine("{0}({1},{2},{3})", Pel2.getTitulo(), Pel2.getAño(), Pel2.getPais(), Pel2.getDirrector());
         }
     }
 }
