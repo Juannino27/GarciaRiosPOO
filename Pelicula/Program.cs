@@ -1,39 +1,68 @@
 ﻿using System;
-using System.Collections.Generic;
+
 namespace Peliculas
 {class Pelicula
     {
-        public string Titulo, Director, Pais;
-        public int año;
-        //Metodo imprime
-        public void imprime()
+        private string Titulo, Director, Pais;
+        private int año;
+        
+        public string getTitulo()
         {
-            Console.WriteLine(Titulo, Director, Pais, año);
+            return Titulo;
         }
-        public Pelicula(string t)
+        public void setTitulo(string t)
         {
             Titulo = t;
         }
-        public Pelicula(string d)
+        public string getDirrector()
         {
-            Director = d;
+            return Director;
         }
-        public Pelicula(string p)
+        public void setDirector(string d)
+        {
+            Director =d;
+        }
+        public string getPais()
+        {
+            return Pais;
+        }
+        public void setPais(string p)
         {
             Pais = p;
         }
-        public Pelicula(int a);
+        public int getAño()
+        {
+            return año;
+        }
+        public void setAño(int a)
         {
             año = a;
         }
-       
     }
     class Program
     {
         static void Main(string[] args)
         {
-           Pelicula Peli = new Pelicula;
-           List< Peliculas
+            Pelicula Pel1 = new Pelicula();
+            Pelicula Pel2 = new Pelicula();
             
+            Pel1.setTitulo("Titanic");
+            Pel2.setTitulo("Black Panther");
+            Console.WriteLine(Pel1.getTitulo());
+            Console.WriteLine(Pel2.getTitulo());
+            Pel1.setAño(1997);
+            Pel2.setAño(2018);
+            Console.WriteLine(Pel1.getAño());
+            Console.WriteLine(Pel2.getAño());
+            Pel1.setPais("Estados Unidos");
+            Pel2.setPais("Estados Unidos");
+            Console.WriteLine(Pel1.getPais());
+            Console.WriteLine(Pel2.getPais());
+            Pel1.setDirector("James Cameron");
+            Pel2.setDirector("Ryan Coogler");
+
+
         }
     }
+}
+
