@@ -1,7 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 namespace Peliculas
-{class Pelicula
+{
+    class Actor
+    {
+        public string nomActor;
+        public Actor(string nombre)
+        {
+            nomActor = nombre;
+        }
+    }
+    class Pelicula
     {
         public string Titulo;
         
@@ -14,7 +23,17 @@ namespace Peliculas
         {
             Titulo = t;
         }
-       
+        //Lista Actores para la clase Actor
+       List<Actor> Actores = new List<Actor>();
+       public void AgregarActores(Actor nom)
+       {
+            Actores.Add(nom);
+       }
+       public void ImprimeActores()
+       {
+           foreach(Actor a in Actores)
+           Console.WriteLine(a.nomActor);
+       }
     }
     class Program
     {
@@ -34,6 +53,16 @@ namespace Peliculas
            {
                P.imprime();
            }
+
+           Pelicula Act = new Pelicula("Titanic");
+           //Metodo AgregarActores 
+           Act.AgregarActores(new Actor("Leonardo Dicaprio"));
+           Act.AgregarActores(new Actor("Al Pacino"));
+           Act.AgregarActores(new Actor("Matthew Broderick"));
+           Act.AgregarActores(new Actor("Eugenio Derbez"));
+           Act.AgregarActores(new Actor("Luisito Cominica"));
+            //Metodo ImprimeActores
+           Act.ImprimeActores();
             
         }
     }
