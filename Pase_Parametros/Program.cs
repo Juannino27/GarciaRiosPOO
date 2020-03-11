@@ -8,6 +8,10 @@ namespace Pase_Parametros
        {
            p = p * p * p;
        }
+       //Variable tipo in
+       public void Potencia(in int p)
+       {
+       }
        //Variable tipo ref
        public void PotenciaRef(ref int p)
        {
@@ -51,6 +55,9 @@ namespace Pase_Parametros
             Concursante F = new Concursante();
             //Pase de parametros tipo valor
             nuevo.Potencia(a);
+            Console.WriteLine(a);
+            //Pase de parametros tipo in
+            nuevo.Potencia(in a);
             Console.WriteLine(a);
             //Pase de parametros tipo ref
             nuevo.PotenciaRef(ref a);
