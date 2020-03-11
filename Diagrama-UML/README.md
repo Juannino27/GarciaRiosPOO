@@ -9,6 +9,7 @@
 ![Relacion](https://github.com/Juannino27/GarciaRiosPOO/blob/master/Diagrama-UML/UMLpictures/Relacion.png)
 
 3.Haz el diagrama de clases del siguiente sistema:
+
 Nos piden hacer una aplicación para llevar una bitácora de los libros
 que estamos leyendo y aquellos que ya hemos terminado de leer. 
 En la App podemos buscar libros por autor, categoría, título y calificación.
