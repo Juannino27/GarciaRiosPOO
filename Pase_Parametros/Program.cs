@@ -17,6 +17,11 @@ namespace Pase_Parametros
        {
            p = p * p * p;
        }
+       //Variable tipo out
+       public void Divide(int num1, int num2, out int res)
+       {
+           res = num1 / num2;
+       }
        
    }
    //Creacion clase Concursante
@@ -50,27 +55,37 @@ namespace Pase_Parametros
         static void Main(string[] args)
         {
             int a = 6;
+            int b = 3;
+            int c;
+           
             //Objeto nuevo de clase Numero y Concursante
             Numero nuevo = new Numero();
             Concursante F = new Concursante();
+           
             //Pase de parametros tipo valor
             nuevo.Potencia(a);
             Console.WriteLine(a);
+           
             //Pase de parametros tipo in
             nuevo.Potencia(in a);
             Console.WriteLine(a);
+           
             //Pase de parametros tipo ref
             nuevo.PotenciaRef(ref a);
             Console.WriteLine(a);
-
+           
+            //Pase de parametros tipo out
+            nuevo.Divide(a, b, out c);
+            Console.WriteLine(c);
             
             //Pase de parametros tipo valor
-            Console.WriteLine("{0} {1}", "Sigue Intentando: ", F.nombre);
+            Console.WriteLine("{0} {1}", "Sigue Intentando: ",F.nombre);
+           
             //Pase de parametros tipo referencia ref
             Cambio.Cambiar(F); 
-            Console.WriteLine("{0} {1}", "Sigue intentando: ", F.nombre);
+            Console.WriteLine("{0} {1}", "Sigue intentando: ",F.nombre);
             Concurso.Suerte(ref F);
-            Console.WriteLine("{0} {1}", "Felicidades campeón: ", F.nombre);
+            Console.WriteLine("{0} {1}", "Felicidades campeón: ",F.nombre);
         }
     }
 }
